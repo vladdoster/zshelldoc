@@ -1,0 +1,16 @@
+name: zshelldoc
+title: "Zsh Tools"
+version: "1.0.0"
+zinit:
+  attributes:
+    release-version: "3.10.0"
+    project-repo: zdharma-continuum/zshelldocs
+    uri-asciidoc: https://github.com/zdharma-continuum/zshelldoc
+    uri-asciidoctor: https://github.com/zdharma-continuum/zshelldoc
+    uri-asciidoctorj: https://github.com/zdharma-continuum/zshelldoc
+    uri-examples: https://github.com/asciidoctor/asciidoctor-maven-examples
+    uri-maven: https://maven.apache.org
+nav:
+  - modules/plugin/nav.adoc
+  - modules/site-integration/nav.adoc
+  - modules/project/nav.adoc

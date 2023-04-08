@@ -1,0 +1,36 @@
+= Compatibility Matrix
+
+Here is the list of supported versions alongside the required {uri-asciidoctorj}[AsciidoctorJ] version.
+Release candidate releases are not accounted.
+
+== Maven compatible versions
+
+The current policy for Maven compatibility is to support https://maven.apache.org/docs/history.html[1-year-old releases and the most recent minor].
+
+That is:
+
+* Maven v3.8.5 and higher
+* Maven v3.9.x
+
+== AsciidoctorJ compatible versions
+
+|===
+|Asciidoctor Maven Plugin | AsciidoctorJ | Supported
+
+|v3.x.x
+|v2.x.x
+|Yes
+
+|v2.x.x
+|v2.x.x
+|Yes
+
+|v1.6.0
+|v1.5.x, v1.6.x
+|No
+
+|v1.5.x
+|v1.5.x
+|No
+
+|===
